@@ -1,0 +1,36 @@
+/* 公共样式  */
+html,body,ul,li{margin:0;padding: 0;}
+img { border: none; }
+ul, ol { list-style: none; }
+a { text-decoration: none; margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; }
+:focus { outline: 0; }
+
+.clearfix:before,.clearfix:after{content: "";display:block;}
+.clearfix:after{clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+
+.dateBox{width:360px;margin: 50px auto;border:1px solid black;}
+
+.dateBox .top{width:100%;height:36px;background: firebrick;font-size: 20px;text-align: center;line-height: 36px;}
+.dateBox .top .prev{width:30px;height:100%;color: white;cursor: pointer;}
+.dateBox .top .title{width:290px;text-align: center;line-height: 36px;color: #FFFFFF;}
+.dateBox .top .next{width: 30px;height:100%;color: white;cursor: pointer;}
+
+.dateBox .monthBox{width:100%;text-align: center;font-size: 18px;background: #EDEDED;}
+.dateBox .monthBox .weekBox{width:98%;padding:0 1%;border-bottom:1px solid black;line-height: 30px;}
+.dateBox .monthBox .weekBox .week{width:14.28%;}
+.dateBox .monthBox .weekBox .red{color: firebrick;}
+.dateBox .monthBox .dayBox{width:98%;padding:0 1%;line-height: 26px;border-bottom:1px solid black;}
+.dateBox .monthBox .dayBox .day{width:14.28%;margin:1px 0;cursor: pointer;}
+.dateBox .monthBox .dayBox .red{color: firebrick;}
+.dateBox .monthBox .dayBox .prevMDay{color:#C0C0C0;}
+.dateBox .monthBox .dayBox .nextMDay{color:#C0C0C0;}
+.dateBox .monthBox .dayBox .today{background: firebrick;color: #FFFFFF;}
+.dateBox .monthBox .dayBox .selectDay{background: rgb(240, 240, 57);color: white;}
+
+
+.dateBox .monthBox .dayBox .redZi{background: #CBCBCB;color: firebrick;}
+.dateBox .message{padding:5px 5px 2px;}
+.dateBox .message span{color: firebrick;font-weight: bolder;}
+.dateBox .back{font-size: 16px;cursor: pointer;}
